@@ -19,7 +19,7 @@ class _serviceState extends State<service> {
           ElevatedButton(onPressed: (){
            Ayush. incrementcounter();
 
-          }, child: Text('hello world')),
+          }, child: Text('hello ayush')),
           Obx(()=>Text("${Ayush.count}")), //obx logic
         ],
       ),
